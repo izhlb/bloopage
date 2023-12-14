@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;" />
+  <title>Homepage</title>
+
+  <script src="./js/fontawes.js"></script>
+  <script src="./js/jQuery.js"></script>
+
+
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./logo.png" type="image/x-icon" />
+</head>
+
+<body>
+  <div id="myModalH" class="modal csgrid">
+    <h3 class="fixedxd">Cheat Sheet</h3><br>
+    <div class="scrollable-div">
+
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit hic quod rem, eum recusandae atque. Quae velit
+      beatae exercitationem consequuntur, ullam, nam, temporibus placeat voluptatum suscipit voluptas nulla! Quis,
+      tempora!
+      Corporis error minus dignissimos blanditiis debitis aliquid eum rerum, tenetur possimus dolores, modi, ipsa optio
+      voluptatibus reiciendis nostrum id pariatur sunt. Esse, expedita. Pariatur molestiae eveniet, illo adipisci
+      voluptatum dicta!
+      Exercitationem quia maiores adipisci officiis labore debitis consequuntur quidem tenetur unde, alias laudantium.
+      Blanditiis hic at quaerat repellat earum odit dolore animi deserunt magni numquam, incidunt illo, assumenda harum
+      molestias.
+      Provident debitis quae enim voluptatibus, fugiat illo, eius quo minima mollitia unde omnis officiis sapiente
+      dolorum quia? Enim laudantium magni asperiores odit, et debitis amet, id deleniti iure veniam corrupti.
+      Ratione omnis quae ab itaque ea quidem libero recusandae enim, magni alias dolor fugit repellat maxime tempore eos
+      voluptatem vero odit iste, praesentium eaque tenetur natus accusamus corrupti. Quibusdam, consectetur!
+      Aut iure sapiente repellendus cupiditate! Quam, magni impedit! Soluta illum nulla aliquam dolorem dolor facere ut
+      accusantium beatae? Corporis et nihil quia blanditiis recusandae itaque sint magni error obcaecati quod.
+
+    </div>
+
+  </div>
+  <div id="modalOverlayH" class="modal-overlay"></div>
+
+  <div style="width: 350px;" id="myModalS" class="modal csgrid">
+    <h3 class="fixedxd">Options</h3><br>
+    <div class="scrollable-div">
+      <button style="font-size: 16px;width: 150px;padding-left: 5px;padding-right: 5px;" class="bbutton pot"
+        id="hueButton">Change Accent</button><br>
+
+      <button style="width: 150px !important;font-size: 16px;" class="bbutton" id="displayButton">Display Flag</button>
+      <input style="margin-left: 20px;height: 30px;padding-left: 15px;" type="text" class="inputxd" id="countryInput"
+        placeholder="CC"><br>
+      <button style="font-size: 16px;width: 150px !important;" class="bbutton" id="submitBtn">Get osu!stats</button>
+      <input class="inputxd" style="margin-left: 20px;height: 30px;padding-left: 15px;width: 100px;"
+        placeholder="Player Name" type="text" id="playerInput">
+      <br><br><br>
+      <input type="text" id="inputField">
+      <br />
+      <span><i style="color: #303030;"># Nothing more jet.</i></span>
+
+      <div>
+        <input type="radio" id="skinsRadio" name="stickerType" value="skins" checked>
+        <label for="skinsRadio">Skins</label>
+      </div>
+      <div>
+        <input type="radio" id="stickersRadio" name="stickerType" value="stickers">
+        <label for="stickersRadio">Stickers</label>
+      </div>
+      <div>
+        <input type="radio" id="cratesRadio" name="stickerType" value="crates">
+        <label for="cratesRadio">Crates</label>
+      </div>
+      <div>
+        <input type="radio" id="keysRadio" name="stickerType" value="keys">
+        <label for="keysRadio">Keys</label>
+      </div>
+      <div>
+        <input type="radio" id="patchesRadio" name="stickerType" value="patches">
+        <label for="patchesRadio">Patches</label>
+      </div>
+    </div>
+
+  </div>
+  <div id="modalOverlayS" class="modal-overlay"></div>
+
+  <div id="myModalG" class="modalG csgrid">
+    <span style="font-size: 30px;margin-right: 40px;">Search</span><input class="search" id="searchInput"
+      type="text"></span>
+  </div>
+  <div id="modalOverlayG" class="modal-overlay"></div>
+
+
+
+
+  <div class="grid-container">
+    <div class="logocont">
+      <pre class="logo">
+                    ⢵⢺⠹⡨⡣⡣⡱⡩⡱⡲⢤⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⢝⢜⠜⡬⡊⡆⡣⢕⠜⡌⡎⡕⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⢪⢢⠣⡣⢪⠪⡊⡎⢎⢎⠪⡢⣙⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠆⠑⢒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⢕⢅⢇⢇⢣⢃⢇⢕⠕⡅⡇⡇⣒⢗⠀⠀⠀⠀⠀⠀⠀⢀⢀⣀⡠⣀⣘⢌⠂⠊⡐⡀⠂⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⢕⢜⢔⠥⡃⡇⡕⡅⡇⡇⢎⢎⠢⡗⡠⢆⢀⠠⡐⠘⡊⠓⡐⢀⢊⠀⡂⢂⠩⠐⠨⠀⡃⠠⠑⠐⡐⢑⠒⠤⢤⣀⡀⠀⠀⠀⠀⠀⠀⠀
+                    ⢪⢢⠣⡕⢕⠕⡜⡌⡆⡇⡣⡪⡚⡎⡕⣛⢎⢔⠘⠐⡈⠂⡊⡀⡂⠂⡊⠐⠨⠈⡘⠐⡈⢂⢑⠁⢌⠠⠠⡑⠠⡐⡈⠵⢂⢄⢀⠀⠀⠀
+                    ⠑⠅⢇⢎⠎⡎⡪⡢⢣⢪⠪⡢⢣⢑⢕⠆⡋⠠⠑⢁⢘⠀⢒⠀⡊⠐⡘⠈⡘⠐⠈⢂⡪⠤⠶⠬⢔⡠⠡⢠⠥⠔⢄⢌⠄⢌⠔⢣⡀⠀
+                    ⢑⠁⡊⠠⠑⢁⠊⠊⠢⠲⠸⠘⣸⠗⢑⠐⡈⠂⡑⠐⡐⠈⡂⠂⡊⠐⡈⠂⡊⠀⡴⠃⠀⠀⠀⠀⠀⠁⢛⡄⠆⠀⠀⠀⠈⡰⢀⠗⠀⠀
+                    ⢕⠕⡕⡅⣓⢔⠕⢥⢑⡁⡊⡜⢑⠠⠑⡀⢊⠐⡘⠐⡀⡀⡈⠐⡈⠂⡊⢐⢈⠢⡃⠀⠀⠀⠀⠀⠀⠀⠀⣮⢊⡀⠀⡠⡊⡴⠓⠀⠀⠀
+                    ⠕⡕⡱⡸⡘⡔⣙⠬⡒⡥⡫⡊⣂⢂⡕⢀⢑⠐⡸⡪⠑⠈⠘⢧⢘⠀⡊⠐⠐⠈⢣⡀⠀⠀⠀⠀⠀⢀⣘⠌⡪⢢⢪⡄⠝⠈⠀⠀⠀⠀
+                    ⢕⢕⠕⡅⢇⢕⠕⡅⢇⢎⠮⡼⠂⢼⠈⡐⢐⢰⠋⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠈⠒⢖⢆⢖⠮⣝⠪⠐⠨⠐⡐⣨⠃⠀⠀⠀⠀⠀
+                    ⢑⠂⠣⠣⠣⡱⠱⣸⠜⠈⡼⡡⠣⡕⠨⠐⡐⡸⠀⠀⠀⠀⠀⡸⠁⣀⠀⠀⠀⠀⠀⠀⠀⠀⢕⢅⢳⠸⡸⡈⡘⠐⠊⠀⠀⠀⠀⠀⠀⠀
+                    ⡒⡬⠪⡄⣃⢐⢱⠃⠀⣨⠡⡸⠁⢏⠪⠒⠕⠸⣄⢀⢀⣀⠖⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠨⡪⣊⣎⡪⡂⡂⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⡪⢜⠜⡬⡒⢵⠃⠀⢰⠡⢠⠁⠀⠀⠀⡀⡋⠐⢨⢱⠱⡸⡀⠀⠀⠀⠰⠂⠀⠀⠀⠀⠀⠀⡨⢎⠀⠀⠈⠈⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠪⠪⢪⢢⢣⠃⠀⠀⡆⢌⠄⡢⠀⡪⣑⣦⢪⠮⢲⡱⢱⢱⠀⠀⠀⠀⠖⠂⢄⠀⠀⠀⡰⠚⠉⢁⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⢕⢁⡑⡀⡝⠀⠀⠀⠈⠁⠉⠉⠉⠊⠉⠀⠀⠀⠸⠼⠜⠈⢙⠙⠓⠛⠚⡀⠀⠱⡀⠀⠀⠀⢀⠎⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⡪⡢⡣⢕⠊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠂⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠁⢆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠊⢂⠑⡁⠗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠞⠀⣀⡀⡀⠀⠀⠠⡸⡨⡹⠔⠂⠓⠐⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⢑⠠⠑⡀⢇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠒⠒⠐⡄⠀⠀⠀⢨⠪⡸⡨⢽⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⢑⠀⡃⢐⢱⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⢇⡕⠀⠀⡕⢕⢕⠜⣼⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠒⠐⠨⠐⡘⠆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣄⡀⠀⠀⢨⢪⠺⠀⢀⠀⡎⢎⢆⢳⢸⠅⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⢑⠁⡑⠁⡂⠹⡀⠀⠀⠀⠀⢀⢤⢄⡀⠀⠀⢐⢯⠢⡍⢗⢦⡸⡘⡕⢝⢕⣻⢸⢘⢔⠕⣽⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠒⠐⡈⠂⡊⠄⠓⠢⡀⠀⠀⠳⣱⣧⠭⡱⢤⠫⡊⡎⡪⡢⠣⡇⡇⡕⢕⠧⣿⢸⠸⡰⡱⡛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⢑⠁⢊⠐⠨⠀⡃⠁⠕⠠⢄⢠⠘⣔⠕⡕⢕⢕⠕⡅⡇⡕⡍⢧⢃⢇⢯⢕⢽⢜⠜⢬⢞⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                    ⠒⠈⠢⠈⡊⢐⠨⠂⡑⠁⡊⠐⠨⠈⢇⢇⢣⢪⠪⡪⡊⡆⢇⢇⢳⢱⠱⠥⡹⡜⣜⠵⡙⡬⡒⡝⡤⠀⠀
+            </pre>
+    </div>
+    <div>
+      <h1 id="output" class="title">bloo<img style="height: 20px;vertical-align: sup;margin-left: 20px;" id="flagImage"
+          src="" alt="Flag"></h1>
+      <p class="quote">"go away."</p>
+      <br />
+      <div class="info gridinfo">
+        <div class="one">
+          <i title="Current Time" class="fa-solid fa-clock fa-xl"
+            style="color: var(--main-color); margin-right: 20px"></i>
+          <span class="icon timetime" id="time"></span><br /><br />
+
+          <i title="Current Date" class="fa-solid fa-calendar-days fa-xl"
+            style="color: var(--main-color); margin-right: 20px"></i>
+          <span class="icon" id="date"></span><br /><br />
+          <i title="Birthday (Jan 11)" class="fa-solid fa-cake-candles fa-xl"
+            style="color: var(--main-color); margin-right: 20px"></i>
+          <span class="icon" id="countdown"></span><br /><br />
+          <i title="Currency Conversion" class="fa-solid fa-coins fa-xl"
+            style="color: var(--main-color); margin-right: 20px"></i>
+          <span class="icon" id="exchangeRate"></span><br /><br />
+          <i title="Public IP-Address" class="fa-solid fa-network-wired fa-xl"
+            style="color: var(--main-color); margin-right: 20px"></i>
+          <span class="icon" id="ipSpan">1.1.1.1</span><br /><br />
+        </div>
+        <div class="two">
+          <i title="Password Generator" class="fa-solid fa-key fa-xl"
+            style="color: var(--main-color); margin-right: 20px"></i><span id="passwd"
+            class="icon select"></span><br /><br />
+          <textarea placeholder="Notes Here..." id="notepad"></textarea>
+        </div>
+      </div>
+      <div style="padding-top: 20px;height:320px ;" class="info">
+        <div id="buttonContainer">
+
+          <button id="button1" class="navigationButton tab">Links</button>
+          <button id="button3" class="navigationButton tab">osu!stats</button>
+          <button id="button2" class="navigationButton tab">Color</button>
+          <button id="button4" class="navigationButton tab">Tools</button>
+
+        </div>
+        <div id="page1Content" class="pageContent txgrid">
+
+          <div class="tx1">
+            <div class="split-button">
+              <button onclick="window.location.href='https://youtube.com'" class="left-button">
+                <i class="fa-brands fa-youtube" style="color: #1f1f1f"></i>
+              </button>
+              <button onclick="window.location.href='https://www.youtube.com/playlist?list=LL'" class="right-button">
+                <i class="fa-solid fa-thumbs-up" style="color: #1f1f1f"></i>
+              </button>
+            </div>
+            <br />
+            <button onclick="window.location.href='https://www.facebook.com/'" class="bbutton">
+              <i class="fa-brands fa-facebook"></i></button><br />
+            <button onclick="window.location.href='https://store.steampowered.com/'" class="bbutton"><i
+                class="fa-brands fa-steam"></i></button><br />
+            <button onclick="window.location.href='https://instagram.com'" class="bbutton">
+              <i class="fa-brands fa-square-instagram"></i>
+            </button>
+          </div>
+          <div class="tx2">
+            <button onclick="window.location.href='https://mail.google.com'" style="margin-top: 0" class="bbutton">
+              <i class="fa-solid fa-envelope"></i></button><br />
+            <button class="bbutton">
+              <i class="fa-solid fa-cloud"></i></button><br />
+            <button onclick="window.location.href='https://discord.com'" class="bbutton"><i
+                class="fa-brands fa-discord"></i></button><br />
+            <button onclick="window.location.href='https://telegram.org'" class="bbutton">
+              <i class="fa-brands fa-telegram"></i>
+            </button>
+          </div>
+          <div class="tx3">
+            <button style="margin-top: 0" class="bbutton">
+              <i class="fa-solid fa-t"></i></button><br />
+            <button class="bbutton"><i class="fa-brands fa-steam"></i></button><br />
+            <button class="bbutton">
+              <i class="fa-brands fa-square-instagram"></i></button><br />
+            <button class="bbutton">
+              <i class="fa-brands fa-square-instagram"></i>
+
+            </button>
+          </div>
+
+
+        </div>
+        <div id="page3Content" class="pageContent">
+          <div class="ecgrid">
+            <div>
+              <span class="minicon">PP</span><br>
+              <span id="pp_raw" class="icon"></span><span class="icon"><i> pp</i></span><br><br>
+              <span class="minicon">Ranked Score</span><br>
+              <span class="icon" id="ranked_score"></span><br><br>
+              <span class="minicon">Level</span><br>
+              <span class="icon" id="level"></span><span class="icon"> <i
+                  class="fa-solid fa-star fa-sm"></i></span><br><br>
+            </div>
+            <div>
+              <span class="minicon">PP Rank</span><br>
+              <span class="icon">#</span><span id="pp_rank" class="icon"></span><br><br>
+              <span class="minicon">Play Count</span><br>
+              <span class="icon" id="playcount"></span><br><br>
+              <span class="minicon">Accuracy</span><br>
+              <span class="icon" id="accuracy"></span><br><br>
+            </div>
+            <div class="dick">
+              <img class="userpic" id="userImage" src="" alt=""><br>
+              <span style="text-align: center;" class="icon" id="username"></span>
+
+            </div>
+          </div>
+          <span class="errorSpan" id="errorSpan"></span>
+        </div>
+        <div id="page2Content" class="pageContent efx efxgrid">
+          <div class="efxsliders">
+            <div class="slider-container">
+              <span><i class="fa-solid fa-sun fa-xl"></i></span>
+              <input style="margin-left: 6px;" type="range" min="0" max="200" value="100" id="brightnessSlider">
+            </div>
+            <div class="slider-container">
+              <span><i class="fa-solid fa-circle-half-stroke fa-xl"></i></span>
+              <input style="margin-left: 6px;" type="range" min="0" max="200" value="100" id="contrastSlider">
+            </div>
+            <div class="slider-container">
+              <span><i class="fa-solid fa-paintbrush fa-xl"></i></span>
+              <input style="margin-left: 4px;" type="range" min="0" max="200" value="100" id="saturationSlider">
+            </div>
+            <div class="slider-container">
+              <span><i class="fa-solid fa-chart-pie fa-xl"></i></i></span>
+              <input style="margin-left: 4px;" type="range" min="0" max="100" value="0" id="grayscaleSlider">
+            </div>
+            <div class="slider-container">
+              <span><i class="fa-solid fa-droplet fa-xl"></i></span>
+              <input style="margin-left: 11px;" type="range" min="0" max="360" value="0" id="hueRotateSlider">
+            </div>
+            <div class="slider-container">
+              <span><i class="fa-solid fa-filter fa-xl"></i></span>
+              <input style="margin-left: 7px;" type="range" min="0" max="100" value="0" id="sepiaSlider">
+            </div>
+            <div class="slider-container">
+              <span><i class="fa-solid fa-eye-low-vision"></i></span>
+              <input style="margin-left: 10px;" type="range" min="0" max="10" value="0" step="0.1" id="blurSlider">
+            </div>
+            <div class="slider-container">
+              <span><i class="fa-solid fa-circle fa-xl "></i></span>
+              <input style="margin-left: 7px;" type="range" min="0" max="100" value="0" id="dropShadowSlider">
+            </div>
+            <div class="slider-container">
+              <span><i class="fa-solid fa-star-half-stroke fa-xl"></i></span>
+              <input type="range" min="0" max="100" value="0" id="invertSlider">
+            </div>
+            <button class="reset-button" id="resetButton">Reset</button>
+          </div>
+
+        </div>
+
+        <div style="margin: auto;" id="page4Content" class="pageContent">
+
+
+
+
+
+
+
+
+          <input style="background-color: #1a1a1a;margin-left: 20px;height: 30px;padding-left: 15px;width: 150px;"
+            class="inputxd inputfix" type="text" id="youtubeUrl" placeholder="Enter YouTube URL">
+          <button class="ytdown" id="downloadButton"><i class="fa-solid fa-arrow-right"></i></button><br>
+          <div class="minusa">
+
+            <div>
+              <center>
+                <button class="helloa" id="fetchButton">Random Item</button>
+
+                <p class="asde">(Change item type in Options)</p>
+
+                <p style="text-align: left;" class="minicon">Random</p>
+
+                <button style="font-size:14px;font-family: Poppins;padding: 0;height: 25px;"
+                  class="bbutton">Unused</button>
+
+              </center>
+
+
+            </div>
+
+            <div>
+              <center>
+                <div id="stickerContainer"></div>
+              </center>
+            </div>
+            <div>
+              <p style="text-align: center;" class="minicon">Credits</p>
+<div class="credcont">
+  <div><center><a href="https://steamcommunity.com/id/kapdbehpcounteruwu"><img style="width: 60px;" src="./static/stan.jpg" alt=""></a><p class="minicon">Creator</p></center></div>
+  <div><center><img style="width:60px ;" src="./static/tux.gif" alt="" srcset=""><p class="minicon">Mental Support</p></center></div>
+</div>
+  <p style="margin: 0;text-align: center;" class="icon">Made with ❤️ 2023</p>
+            </div>
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+
+
+
+
+
+        <!--
+          <div>
+         <button id="button5" class="navigationButton tab">More...</button>
+        </div>
+-->
+
+
+
+      </div>
+
+      <div id="page5Content" class="pageContent">
+        <h1>GHEllo</h1>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <div id="warningMessage">
+    <h3>Too Small</h3>
+    <p>Your window width is below 1600px. Please resize your window to view the content, or buy a new monitor xd</p>
+    <center>
+      <img class="cry" src="./static/joeangry.png" alt="">
+    </center>
+  </div>
+  <script src="./js/main.js"></script>
+  <br><br><br>
+  <div class="helpmenu">
+    <p>Help - <i style="margin-right: 60px">Insert</i>Search - <i style="margin-right: 60px">End</i>Options -
+      <i>Home</i>
+    </p>
+  </div>
+  <span class="version">v0.5.1</span>
+</body>
+
+</html>
